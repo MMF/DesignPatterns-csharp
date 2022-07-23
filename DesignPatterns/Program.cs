@@ -1,1 +1,3 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using DesignPatterns.StrategyPattern;
+
+StrategyProgram.Run();
