@@ -8,6 +8,6 @@ namespace DesignPatterns.StrategyPattern
 {
     public interface IPaymentStrategy
     {
-        public void Pay(decimal amount);
+        void Pay(decimal amount);
     }
 }

@@ -10,6 +10,8 @@ namespace DesignPatterns.StrategyPattern
     {
         public static void Run()
         {
+            Console.WriteLine("Strategy Pattern");
+
             var paymentContext = new PaymentContext();
 
             paymentContext.SetStrategy(new CreditCardStrategy("4508750015741019", 123, "01/22"));
