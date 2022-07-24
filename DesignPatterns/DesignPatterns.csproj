@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="BuilderPattern\" />
+    <Folder Include="FactoryPattern\" />
+    <Folder Include="AdapterPattern\" />
+    <Folder Include="StatePattern\" />
+  </ItemGroup>
+
 </Project>

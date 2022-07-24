@@ -1,8 +1,18 @@
 ﻿using DesignPatterns.StrategyPattern;
 using DesignPatterns.ObserverPattern;
+using DesignPatterns.SingletonPattern;
 
 StrategyProgram.Run();
-Console.WriteLine("---------------------------------");
+LineSeperator();
 
 ObserverProgram.Run();
-Console.WriteLine("---------------------------------");
+LineSeperator();
+
+SingletonProgram.Run();
+LineSeperator();
+
+
+static void LineSeperator()
+{
+    Console.WriteLine("---------------------------------");
+}
