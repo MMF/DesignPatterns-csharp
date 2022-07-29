@@ -7,6 +7,7 @@ public class SingletonProgram
         Console.WriteLine("Singleton Pattern");
         TestSimpleSingleton();
         TestThreadSafeSingleton();
+        TestLazySingleton();
     }
 
     private static void TestSimpleSingleton()
@@ -36,5 +37,16 @@ public class SingletonProgram
     {
         var instance = ThreadSafeSingleton.GetInstance("A");
         Console.WriteLine(instance.Value);
+    }
+
+    private static void TestLazySingleton()
+    {
+        var instance1 = LazySingleton.GetInstance();
+        var instance2 = LazySingleton.GetInstance();
+
+        if (instance1 == instance2)
+            Console.WriteLine("Singleton worked!");
+        else
+            Console.WriteLine("Singleton failed!");
     }
 }

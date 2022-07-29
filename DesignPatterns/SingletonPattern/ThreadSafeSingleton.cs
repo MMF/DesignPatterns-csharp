@@ -1,5 +1,5 @@
 ﻿namespace DesignPatterns.SingletonPattern;
-public class ThreadSafeSingleton
+public sealed class ThreadSafeSingleton
 {
     private static ThreadSafeSingleton? _instance = null;
     private static readonly object _lock = new object();
