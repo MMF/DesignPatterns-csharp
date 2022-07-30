@@ -8,6 +8,8 @@ Design patterns Implementations / Examples in C# .NET
 
 ✅ Strategy Design Pattern
 
+✅ Proxy Design Pattern
+
 - [ ] State Design Pattern
 - [ ] Factory Design Pattern
 - [ ] Builder Design Pattern
@@ -17,6 +19,5 @@ Design patterns Implementations / Examples in C# .NET
 - [ ] Decorator Design Pattern
 - [ ] Bridge Design Pattern
 - [ ] Facade Design Pattern
-- [ ] Proxy Design Pattern
 - [ ] Mediator Design Pattern
 - [ ] Command Design Pattern
