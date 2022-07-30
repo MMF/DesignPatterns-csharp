@@ -10,7 +10,6 @@
   <ItemGroup>
     <Folder Include="BuilderPattern\" />
     <Folder Include="FactoryPattern\" />
-    <Folder Include="AdapterPattern\" />
     <Folder Include="StatePattern\" />
   </ItemGroup>
 
