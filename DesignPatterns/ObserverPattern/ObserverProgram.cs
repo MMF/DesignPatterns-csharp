@@ -1,32 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace DesignPatterns.ObserverPattern;
 
-namespace DesignPatterns.ObserverPattern
+public class ObserverProgram
 {
-    public class ObserverProgram
+    public static void Run()
     {
-        public static void Run()
-        {
-            Console.WriteLine("Observer Pattern");
+        Console.WriteLine("Observer Pattern");
 
-            var luluStore = new LuluStore();
-            luluStore.AddOffer("Cheese", 1.5);
+        var luluStore = new LuluStore();
+        luluStore.AddOffer("Cheese", 1.5);
 
-            var c1 = new Customer("Mohamad");
-            var c2 = new Customer("Ahmed");
-            var c3 = new Customer("Ali");
+        var c1 = new Customer("Mohamad");
+        var c2 = new Customer("Ahmed");
+        var c3 = new Customer("Ali");
 
-            luluStore.Subscribe(c1);
-            luluStore.Subscribe(c2);
+        luluStore.Subscribe(c1);
+        luluStore.Subscribe(c2);
 
-            luluStore.AddOffer("Rice", 4);
-            Console.WriteLine();
-            
-            luluStore.Subscribe(c3);
-            luluStore.AddOffer("Shoes", 12);
-        }
+        luluStore.AddOffer("Rice", 4);
+        Console.WriteLine();
+        
+        luluStore.Subscribe(c3);
+        luluStore.AddOffer("Shoes", 12);
     }
 }

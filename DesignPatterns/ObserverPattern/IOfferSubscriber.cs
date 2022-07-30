@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace DesignPatterns.ObserverPattern;
 
-namespace DesignPatterns.ObserverPattern
+public interface IOfferSubscriber
 {
-    public interface IOfferSubscriber
-    {
-        void NewOffer(Dictionary<string, double> offers);
-    }
+    void NewOffer(Dictionary<string, double> offers);
 }
