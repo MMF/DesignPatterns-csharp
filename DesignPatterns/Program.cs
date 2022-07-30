@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.StrategyPattern;
 using DesignPatterns.ObserverPattern;
 using DesignPatterns.SingletonPattern;
+using DesignPatterns.ProxyPattern;
 
 StrategyProgram.Run();
 LineSeperator();
@@ -11,6 +12,8 @@ LineSeperator();
 SingletonProgram.Run();
 LineSeperator();
 
+ProxyProgram.Run();
+LineSeperator();
 
 static void LineSeperator()
 {
