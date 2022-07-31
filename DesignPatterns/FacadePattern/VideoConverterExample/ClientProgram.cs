@@ -4,7 +4,7 @@ public class ClientProgram
 {
     public static void Run()
     {
-        var videoConverter = new VideoConverterFacade();
+        var videoConverter = new HrFacade();
         var videoFile = videoConverter.ConvertVideo("D://media/funny_cat.avi", "video.mp4");
 
         videoFile.Save("D://media/funny_cat.mp4");

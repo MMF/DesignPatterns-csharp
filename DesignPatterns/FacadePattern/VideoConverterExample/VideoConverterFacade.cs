@@ -2,7 +2,7 @@
 
 namespace DesignPatterns.FacadePattern.VideoConverterExample;
 
-public class VideoConverterFacade
+public class HrFacade
 {
     public VideoFile ConvertVideo(string filename, string format)
     {

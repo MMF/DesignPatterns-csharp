@@ -6,5 +6,9 @@ public class FacadeProgram
     {
         Console.WriteLine("Facade Pattern");
         VideoConverterExample.ClientProgram.Run();
+
+        Console.WriteLine();
+
+        HrExample.ClientProgram.Run();
     }
 }
