@@ -12,6 +12,8 @@ Design patterns Implementations / Examples in C# .NET
 
 ✅ Adapter Design Pattern
 
+✅ Facade Design Pattern
+
 - [ ] State Design Pattern
 - [ ] Factory Design Pattern
 - [ ] Builder Design Pattern
