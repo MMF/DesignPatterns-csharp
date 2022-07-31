@@ -7,6 +7,8 @@ public class AdapterProgram
 {
     public static void Run()
     {
+        Console.WriteLine("Adapter Pattern");
+        
         PhoneChargerProgram.Run();
 
         Console.WriteLine();
