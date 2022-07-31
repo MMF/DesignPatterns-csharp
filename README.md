@@ -26,7 +26,7 @@ Design patterns Implementations / Examples in C# .NET
 
 🔰 Mediator Design Pattern
 
-🔰 Chain of Responsibility Design Pattern 
+🔰 Chain of Resp. Design Pattern 
 
 🔰 Iterator Design Pattern  
 
