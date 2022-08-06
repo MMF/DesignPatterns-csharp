@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="BuilderPattern\" />
+    <Folder Include="BuilderPattern\MealExample\" />
     <Folder Include="FactoryPattern\" />
     <Folder Include="StatePattern\" />
   </ItemGroup>
