@@ -42,11 +42,11 @@ Design patterns Implementations / Examples in C# .NET
 <!-- Creational -->
 ✅ Singleton Design Pattern
 
+✅ Builder Design Pattern
+
 🔰 Factory Design Pattern
 
 🔰 Abstract Factory Design Pattern
-
-🔰 Builder Design Pattern
 
 🔰 Prototype Design Pattern
 </p>
