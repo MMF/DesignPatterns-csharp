@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.BuilderPattern;
+using DesignPatterns.BuilderPattern.MealExample;
 
 namespace DesignPatterns.BuilderPattern;
 
@@ -9,5 +10,9 @@ public class BuilderProgram
         Console.WriteLine("Builder Pattern");
 
         CarExample.ClientProgram.Run();
+
+        Console.WriteLine("-----------------------");
+
+        Resturant.Run();
     }
 }
