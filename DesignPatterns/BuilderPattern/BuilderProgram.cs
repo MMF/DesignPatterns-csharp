@@ -11,7 +11,7 @@ public class BuilderProgram
 
         CarExample.ClientProgram.Run();
 
-        Console.WriteLine("-----------------------");
+        Console.WriteLine();
 
         Resturant.Run();
     }
