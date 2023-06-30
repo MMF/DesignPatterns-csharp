@@ -20,6 +20,8 @@ Design patterns Implementations / Examples in C# .NET
 
 ✅ Observer Design Pattern
 
+✅ Mediator Design Pattern
+
 🔰 State Design Pattern
 
 🔰 Command Design Pattern
