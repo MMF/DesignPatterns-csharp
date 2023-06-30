@@ -26,8 +26,6 @@ Design patterns Implementations / Examples in C# .NET
 
 🔰 Command Design Pattern
 
-🔰 Mediator Design Pattern
-
 🔰 Chain of Resp. Design Pattern 
 
 🔰 Iterator Design Pattern  
