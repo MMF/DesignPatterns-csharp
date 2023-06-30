@@ -5,6 +5,7 @@ using DesignPatterns.ProxyPattern;
 using DesignPatterns.AdapterPattern;
 using DesignPatterns.FacadePattern;
 using DesignPatterns.BuilderPattern;
+using DesignPatterns.MediatorPattern;
 
 StrategyProgram.Run();
 LineSeperator();
@@ -25,6 +26,9 @@ FacadeProgram.Run();
 LineSeperator();
 
 BuilderProgram.Run();
+LineSeperator();
+
+MediatorProgram.Run();
 LineSeperator();
 
 static void LineSeperator()
