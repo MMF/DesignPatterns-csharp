@@ -28,7 +28,7 @@ LineSeperator();
 BuilderProgram.Run();
 LineSeperator();
 
-MediatorProgram.Run();
+await MediatorProgram.RunAsync();
 LineSeperator();
 
 static void LineSeperator()
